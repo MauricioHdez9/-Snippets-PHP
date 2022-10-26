@@ -1,0 +1,99 @@
+{
+	// Place your pg workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	 "LLaves PHP": {
+		"prefix": "phpl",
+		"body": [
+			"<?php $1?>",
+			"$2"
+		],
+		"description": "llaves de PHP"
+
+	},
+	"LLaves echo PHP": {
+		"prefix": "phpc",
+		"body": [
+			"<?=\"$1\"?>",
+			"$2"
+		],
+		"description": "llaves de PHP"
+
+	},
+	"br PHP": {
+		"prefix": "br",
+		"body": [
+			"</br>$1",
+			"$2"
+		],
+		"description": "crea un br de Html"
+		
+	},
+	"brc PHP": {
+		"prefix": "br",
+		"body": [
+			"\"</br>\"$1",
+			"$2"
+		],
+		"description": "crea un br de Html con comillas"
+		
+	},
+	"echoc PHP": {
+		"prefix": "echoc",
+		"body": [
+			"echo \" $1 \";$2"
+			
+		],
+		"description": "echo con comillas "
+		
+	},
+	"echo 'PHP' ": {
+		"prefix": "echo",
+		"body": [
+			"echo ' $1 ';$2"
+			
+		],
+		"description": "echo con comillas simples "
+		
+	},
+	"echoc br PHP": {
+		"prefix": "echoc",
+		"body": [
+			"echo \" $1 \".\"</br>\";$2"
+			
+		],
+		"description": "echo con comillas y br "
+		
+	},
+	"if POST": {
+		"prefix": "ifp",
+		"body": [
+			"if(isset($_POST['$1']))",
+			"{",
+			"$2",
+			"}"
+			
+		],
+		"description": "if para peticion POST "
+		
+	},
+	"if GET": {
+		"prefix": "ifp",
+		"body": [
+			"if(isset($_GET['$1']))",
+			"{",
+			"$2",
+			"}"
+			
+		],
+		"description": "if para peticion GET "
+		
+	}
+	
+
+	// }
+}
