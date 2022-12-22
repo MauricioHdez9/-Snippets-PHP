@@ -72,7 +72,7 @@
 	"if POST": {
 		"prefix": "ifp",
 		"body": [
-			"if(isset($_POST['$1']))",
+			"if(isset('$'_POST['$1']))",
 			"{",
 			"$2",
 			"}"
